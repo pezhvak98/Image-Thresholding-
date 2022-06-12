@@ -6,6 +6,12 @@
 using namespace std;
 using namespace cv;
 
+Mat makebinary(Mat image, int threshold){
+    Mat result(image.size(),CV_8UC1);
+}
+
+
+
 int main(int argc, char const *argv[])
 {
     /* code */
