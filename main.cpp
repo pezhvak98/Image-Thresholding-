@@ -11,8 +11,10 @@ Mat makebinary(Mat image, int threshold){
     Mat result(image.size(),CV_8UC1);
     for(int i = 0 ; i < image.rows ; i++){
         for(int j = 0 ; j < image.cols ; j++){
-            if(image.at<uchar>(i,j)>threshold)
-				result.at<uchar>(i,j)=255;	//Make pixel white
+            if(image.at<uchar>(i,j)>threshold){
+                result.at<uchar>(i,j)=255;	//Make pixel white
+            }
+				
 			else
 				result.at<uchar>(i,j)=0;	//Make pixel black
         }
