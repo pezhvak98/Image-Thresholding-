@@ -38,5 +38,8 @@ For example, the kernel used above is useful for sharpening the image. But what 
 #### But this example had padding
 
 
+### Kernel without padding 
+
+
 ![conv-pad](https://user-images.githubusercontent.com/71558436/179375013-6464953e-ca61-4397-9dec-1d9114773ac5.svg)
 
