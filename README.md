@@ -17,3 +17,7 @@ The input to a thresholding operation is typically a grayscale or color image. I
 
 1-First, we create a matrix and receive the image in grayscale format
 2-We send the image to the makebinary function to perform operations on it
+
+![image](https://user-images.githubusercontent.com/71558436/179369593-e6f64db1-ebe7-43f2-bd35-d9f493c43fd3.png)
+
+3-We get the value, if the pixel value is less than it, the pixel will be black, if it is more, it will be white
