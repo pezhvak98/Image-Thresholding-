@@ -73,7 +73,7 @@ The problem becomes more pronounced as the size of the filter increases. If we u
 
 To address these problems, we can apply padding.
 
-######  But we only implemented without padding in this program 
+#####  But we only implemented without padding in this program 
 
 
 
