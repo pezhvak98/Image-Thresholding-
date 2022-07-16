@@ -82,5 +82,10 @@ To address these problems, we can apply padding.
 
 Each filter has different values for its kernel, which can be implemented by placing it in the kernel and dropping it on the image.
 
+![image](https://user-images.githubusercontent.com/71558436/179375328-9ec24a8a-6ee8-4f8d-bd0b-9c3abf1bccb3.png)
+
+
+According to the specific formula that I explained above, we create a storage matrix to put the new values obtained in it
+
 
 
