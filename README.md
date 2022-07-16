@@ -35,7 +35,7 @@ In image processing, a kernel, convolution matrix, or mask is a small matrix use
 
 For example, the kernel used above is useful for sharpening the image. But what is so special about this kernel?? Consider the two input image arrangements as shown in the example below. For the first image, the center value is 3*5 + 2*-1 + 2*-1 + 2*-1 + 2*-1 = 7. The value 3 got increased to 7. For the second image, the output is 1*5+ 2*-1 + 2*-1 + 2*-1 + 2*-1 = -3. The value 1 got decreased to -3. Clearly, the contrast between 3 and 1 is increased to 7 and -3, which will in turn sharpen the image.
 
-#### But this example had padding
+
 
 
 ### Kernel without padding 
@@ -61,6 +61,20 @@ The reason for the shrinking image is that a 3×3 filter cannot slide all three 
 There are only 4 steps left for the filter until it reaches the end of the image, both vertically and horizontally. As a consequence, the resulting image will only have 4×4 dimensions instead of 6×6. The general formula for calculating the shrinkage of the image dimensions m x m based on the kernel size f x f, can be calculated as follows:
 
 ( m × m )∗(f × f) = (m − f + 1)∗(m − f + 1)
+
+
+#### This immediately entails two problems:
+
+##### 1-If you perform multiple convolution operations consecutively, the final image might become vanishingly small because the image will shrink with every operation.
+##### 2-Because you cannot slide the full filter over the edge pixels, you cannot perform full convolutions. As a result you will lose some information at the edges.
+
+
+The problem becomes more pronounced as the size of the filter increases. If we use a 5 x 5 filter on the 6 x 6 image, we only have space for 2 convolutions.
+
+To address these problems, we can apply padding.
+
+######  But we only implemented without padding in this program 
+
 
 
 
