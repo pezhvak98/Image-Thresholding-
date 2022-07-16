@@ -32,7 +32,7 @@ In image processing, a kernel, convolution matrix, or mask is a small matrix use
 
 
 ![1_Eai425FYQQSNOaahTXqtgg](https://user-images.githubusercontent.com/71558436/179374841-3108779a-d9f5-4355-91d6-fce49dec451e.gif)
-
+For example, the kernel used above is useful for sharpening the image. But what is so special about this kernel?? Consider the two input image arrangements as shown in the example below. For the first image, the center value is 3*5 + 2*-1 + 2*-1 + 2*-1 + 2*-1 = 7. The value 3 got increased to 7. For the second image, the output is 1*5+ 2*-1 + 2*-1 + 2*-1 + 2*-1 = -3. The value 1 got decreased to -3. Clearly, the contrast between 3 and 1 is increased to 7 and -3, which will in turn sharpen the image.
 
 
 
