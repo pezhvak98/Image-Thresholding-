@@ -76,5 +76,11 @@ To address these problems, we can apply padding.
 #####  But we only implemented without padding in this program 
 
 
+![image](https://user-images.githubusercontent.com/71558436/179375296-2a142dc6-764a-4ee8-b30d-c2eb8b7e25fb.png)
+
+
+
+Each filter has different values for its kernel, which can be implemented by placing it in the kernel and dropping it on the image.
+
 
 
