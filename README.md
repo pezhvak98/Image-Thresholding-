@@ -21,3 +21,14 @@ The input to a thresholding operation is typically a grayscale or color image. I
 ![image](https://user-images.githubusercontent.com/71558436/179369593-e6f64db1-ebe7-43f2-bd35-d9f493c43fd3.png)
 
 3-We get the value, if the pixel value is less than it, the pixel will be black, if it is more, it will be white
+
+## image Filters and Kernel Convolution Visually
+
+
+### what is kernel?
+In image processing, a kernel, convolution matrix, or mask is a small matrix used for blurring, sharpening, embossing, edge detection, and more. This is accomplished by doing a convolution between the kernel and an image.
+![1_Eai425FYQQSNOaahTXqtgg](https://user-images.githubusercontent.com/71558436/179374841-3108779a-d9f5-4355-91d6-fce49dec451e.gif)
+
+
+
+
