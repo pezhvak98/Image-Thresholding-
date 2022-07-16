@@ -1,4 +1,4 @@
-# Image-Thresholding
+# Vison-Task
 
 ## Intro
 **We implemented two operations in this project**  
