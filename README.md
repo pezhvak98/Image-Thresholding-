@@ -27,6 +27,10 @@ The input to a thresholding operation is typically a grayscale or color image. I
 
 ### what is kernel?
 In image processing, a kernel, convolution matrix, or mask is a small matrix used for blurring, sharpening, embossing, edge detection, and more. This is accomplished by doing a convolution between the kernel and an image.
+
+
+
+
 ![1_Eai425FYQQSNOaahTXqtgg](https://user-images.githubusercontent.com/71558436/179374841-3108779a-d9f5-4355-91d6-fce49dec451e.gif)
 
 
