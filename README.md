@@ -54,4 +54,13 @@ When performing a standard convolution operation, the image shrinks by a factor 
 The reason for the shrinking image is that a 3×3 filter cannot slide all three of its columns over the first two horizontal pixels in the image. The same problem exists with regard to the rows and the vertical pixels.
 
 
+<img width="356" alt="Screenshot-2021-12-03-at-09 46 05" src="https://user-images.githubusercontent.com/71558436/179375194-8ac5ca80-fb1b-4e16-8bc6-0bf194ff4c61.png">
+
+
+
+There are only 4 steps left for the filter until it reaches the end of the image, both vertically and horizontally. As a consequence, the resulting image will only have 4×4 dimensions instead of 6×6. The general formula for calculating the shrinkage of the image dimensions m x m based on the kernel size f x f, can be calculated as follows:
+
+( m × m )∗(f × f) = (m − f + 1)∗(m − f + 1)
+
+
 
