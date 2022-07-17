@@ -87,5 +87,8 @@ Each filter has different values for its kernel, which can be implemented by pla
 
 According to the specific formula that I explained above, we create a storage matrix to put the new values obtained in it
 
+![image](https://user-images.githubusercontent.com/71558436/179375370-a677dd9e-355f-4fd4-a84f-8438e86ea169.png)
+
+
 
 
