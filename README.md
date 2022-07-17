@@ -92,4 +92,6 @@ According to the specific formula that I explained above, we create a storage ma
 
 In this part of the code, we iterate on the image. When we reach each pixel, we have a series of conditions so that the kernel falls on the image and is multiplied correctly.
 
+For example  sharpen filter:
 
+![image](https://user-images.githubusercontent.com/71558436/179375711-1c7160e9-35cf-4e8e-97c5-85a16effb662.png)
