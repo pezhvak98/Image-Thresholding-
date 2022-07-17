@@ -90,5 +90,6 @@ According to the specific formula that I explained above, we create a storage ma
 ![image](https://user-images.githubusercontent.com/71558436/179375370-a677dd9e-355f-4fd4-a84f-8438e86ea169.png)
 
 
+In this part of the code, we iterate on the image. When we reach each pixel, we have a series of conditions so that the kernel falls on the image and is multiplied correctly.
 
 
