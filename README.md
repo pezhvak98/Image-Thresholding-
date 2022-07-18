@@ -1,6 +1,10 @@
 # Vison-Task
 
 ## Intro
+
+Vision in robotics
+Robot vision refers to the capability of a robot to visually perceive the environment and use this information for execution of various tasks. Visual feedback has been used extensively for robot navigation and obstacle avoidance.
+
 **We implemented two operations in this project**  
 **1- imageThresholding**
 **2- image Filters and Kernel Convolution Visually** 
