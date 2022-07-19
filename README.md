@@ -42,7 +42,22 @@ Robot vision refers to the capability of a robot to visually perceive the enviro
 
 **We implemented two operations in this project**  
 **1- imageThresholding**
-**2- image Filters and Kernel Convolution Visually** 
+**2- image Filters and Kernel Convolution Visually**
+
+
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
 
 ## ImageThresholding
 
