@@ -16,8 +16,8 @@
     <li>
       <a href="#ImageThresholding">ImageThresholding</a>
       <ul>
-        <li><a href="#what is image thresholding?">#what is image thresholding?</a></li>
-        <li><a href="# How it work">How it work</a></li>
+        <li><a href="#what-is-image-thresholding?">what is image thresholding?</a></li>
+        <li><a href="#How-it-work">How it work</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
