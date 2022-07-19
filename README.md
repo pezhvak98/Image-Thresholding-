@@ -24,7 +24,7 @@
       <ul>
         <li><a href="#what-is-kernel?">what is kernel?</a></li>
         <li><a href="#Kernel-without-padding ">Kernel without padding</a></li>
-        <li><a href="#Why-Do-We-Need-Padding?">shy do we need padding</a></li>
+        <li><a href="#Why-Do-We-Need-Padding?">why do we need padding</a></li>
       </ul>
     </li>
   </ol>
