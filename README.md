@@ -90,11 +90,9 @@ To address these problems, we can apply padding.
 #####  But we only implemented without padding in this program 
 
 
-![image](https://user-images.githubusercontent.com/71558436/179375296-2a142dc6-764a-4ee8-b30d-c2eb8b7e25fb.png)
+![image](https://user-images.githubusercontent.com/71558436/179641844-6a8b2216-cdc9-45e4-a735-a6583d437358.png)
 
-
-
-Each filter has different values for its kernel, which can be implemented by placing it in the kernel and dropping it on the image.
+We enter the kernel value manually and then, if needed, enter the ratio of the value, and if not needed, we give a value of 1.
 
 ![image](https://user-images.githubusercontent.com/71558436/179375328-9ec24a8a-6ee8-4f8d-bd0b-9c3abf1bccb3.png)
 
