@@ -16,7 +16,7 @@
     <li>
       <a href="#ImageThresholding">ImageThresholding</a>
       <ul>
-        <li><a href="#what-is-image-thresholding?">what is image thresholding?</a></li>
+        <li><a href="#what-is-image-thresholding">what is image thresholding?</a></li>
         <li><a href="#How-it-work">How it work</a></li>
       </ul>
     </li>
@@ -24,7 +24,7 @@
       <ul>
         <li><a href="#what-is-kernel?">what is kernel?</a></li>
         <li><a href="#Kernel-without-padding ">Kernel without padding</a></li>
-        <li><a href="#Why-Do-We-Need-Padding?">why do we need padding</a></li>
+        <li><a href="#Why-Do-We-Need-Padding">why do we need padding</a></li>
       </ul>
     </li>
   </ol>
@@ -46,7 +46,7 @@ Robot vision refers to the capability of a robot to visually perceive the enviro
 
 ## ImageThresholding
 
-### what is image thresholding?
+### what is image thresholding
 thresholding is the simplest method of segmenting images. From a grayscale image, thresholding can be used to create binary images.
 
 ### How it work
@@ -84,7 +84,7 @@ Padding describes the addition of empty pixels around the edges of an image. The
 Stride in the context of convolutional neural networks describes the process of increasing the step size by which you slide a filter over an input image. With a stride of 2, you advance the filter by two pixels at each step.
 
 In this post we will learn how padding and stride work in practice and why we apply them in the first place.
-#### Why Do We Need Padding?
+#### Why Do We Need Padding
 
 When performing a standard convolution operation, the image shrinks by a factor equivalent to the filter size plus one. If we take an image of width and height 6, and a filter of width and height 3, the image shrinks by the following factor.
 
