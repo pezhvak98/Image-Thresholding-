@@ -20,7 +20,7 @@
         <li><a href="#How-it-work">How it work</a></li>
       </ul>
     </li>
-    <li><a href="#image-Filters-and-Kernel-Convolution-Visually">Usage</a>
+    <li><a href="#image-Filters-and-Kernel-Convolution-Visually">image Filters and Kernel Convolution Visually</a>
       <ul>
         <li><a href="#what-is-kernel?">what is kernel?</a></li>
         <li><a href="#Kernel-without-padding ">Kernel without padding</a></li>
