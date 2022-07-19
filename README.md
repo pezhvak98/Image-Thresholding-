@@ -52,7 +52,7 @@ We used MakeFile to run this program to make it easier to run
 ### Instructions
 
 This is an example of how to list things you need to use the software and how to install them.
-* 
+
   ```
   make
  
