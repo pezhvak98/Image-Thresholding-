@@ -11,16 +11,13 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="# Intro">Intro</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#ImageThresholding">ImageThresholding</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#what is image thresholding?">#what is image thresholding?</a></li>
+        <li><a href="# How it work">How it work</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
