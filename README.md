@@ -20,12 +20,13 @@
         <li><a href="#How-it-work">How it work</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#image-Filters-and-Kernel-Convolution-Visually">Usage</a>
+      <ul>
+        <li><a href="#what-is-kernel?">what is kernel?</a></li>
+        <li><a href="#Kernel-without-padding ">Kernel without padding</a></li>
+        <li><a href="#Why-Do-We-Need-Padding?">shy do we need padding</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
 
