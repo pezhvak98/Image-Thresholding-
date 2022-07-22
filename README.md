@@ -130,19 +130,6 @@ To address these problems, we can apply padding.
 #####  But we only implemented without padding in this program 
 
 
-![image](https://user-images.githubusercontent.com/71558436/179641844-6a8b2216-cdc9-45e4-a735-a6583d437358.png)
-
-We enter the kernel value manually and then, if needed, enter the ratio of the value, and if not needed, we give a value of 1.
-
-![image](https://user-images.githubusercontent.com/71558436/179375328-9ec24a8a-6ee8-4f8d-bd0b-9c3abf1bccb3.png)
-
-
-According to the specific formula that I explained above, we create a storage matrix to put the new values obtained in it
-
-![image](https://user-images.githubusercontent.com/71558436/179375370-a677dd9e-355f-4fd4-a84f-8438e86ea169.png)
-
-
-In this part of the code, we iterate on the image. When we reach each pixel, we have a series of conditions so that the kernel falls on the image and is multiplied correctly.
 
 For example  sharpen filter:
 
